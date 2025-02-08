@@ -11,6 +11,8 @@ import androidx.compose.ui.Modifier
 import com.srdash.ved_u.data.Astrology.AllSigns
 import com.srdash.ved_u.logics.Astro.DoshaAnalysisScreen
 import com.srdash.ved_u.logics.Astro.charts.AstrologicalChart
+import com.srdash.ved_u.logics.Formattings.ScreenWidthExample
+import com.srdash.ved_u.ui.DarkMode.AuthNavigation
 import com.srdash.ved_u.ui.LightMode.TarotCardsAll
 import com.srdash.ved_u.ui.splashScreens.AstrologyTypes
 import com.srdash.ved_u.ui.splashScreens.SplashScreen
@@ -30,7 +32,9 @@ class MainActivity : ComponentActivity() {
                     //AstrologyTypes()
                     //AllSigns()
                     //AstrologicalChart()
-                    AppNavigation()
+                    //AppNavigation()
+                    //AuthNavigation()
+                    ScreenWidthExample()
                     //DoshaAnalysisScreen()
                     //SplashScreenLight()
                 }

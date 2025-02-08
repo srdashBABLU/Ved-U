@@ -52,7 +52,7 @@ fun DoshaAnalysisScreen() {
             label = { Text("Full Name") },
             keyboardOptions = KeyboardOptions.Default,
             modifier = Modifier.fillMaxWidth(),
-            colors = TextFieldDefaults.outlinedTextFieldColors(Color.White)
+            colors = OutlinedTextFieldDefaults.colors(Color.White)
         )
 
         Spacer(modifier = Modifier.height(8.dp))
@@ -63,7 +63,7 @@ fun DoshaAnalysisScreen() {
             label = { Text("Birth Date (DD/MM/YYYY)") },
             keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Number),
             modifier = Modifier.fillMaxWidth(),
-            colors = TextFieldDefaults.outlinedTextFieldColors(Color.White)
+            colors = OutlinedTextFieldDefaults.colors(Color.White)
         )
 
         Spacer(modifier = Modifier.height(8.dp))
@@ -74,7 +74,7 @@ fun DoshaAnalysisScreen() {
             label = { Text("Birth Time (HH:MM)") },
             keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Number),
             modifier = Modifier.fillMaxWidth(),
-            colors = TextFieldDefaults.outlinedTextFieldColors(Color.White)
+            colors = OutlinedTextFieldDefaults.colors(Color.White)
         )
 
         Spacer(modifier = Modifier.height(8.dp))
@@ -85,7 +85,7 @@ fun DoshaAnalysisScreen() {
             label = { Text("Birth Place") },
             keyboardOptions = KeyboardOptions.Default,
             modifier = Modifier.fillMaxWidth(),
-            colors = TextFieldDefaults.outlinedTextFieldColors(Color.White)
+            colors = OutlinedTextFieldDefaults.colors(Color.White)
         )
 
         Spacer(modifier = Modifier.height(8.dp))
@@ -101,7 +101,7 @@ fun DoshaAnalysisScreen() {
                 label = { Text("Select Zodiac Sign") },
                 trailingIcon = { ExposedDropdownMenuDefaults.TrailingIcon(expanded = showDoshas) },
                 modifier = Modifier.fillMaxWidth(),
-                colors = TextFieldDefaults.outlinedTextFieldColors(Color.White)
+                colors = OutlinedTextFieldDefaults.colors(Color.White)
             )
             ExposedDropdownMenu(
                 expanded = showDoshas,
